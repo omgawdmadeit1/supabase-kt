@@ -31,3 +31,7 @@ kotlin {
 }
 
 configureLibraryAndroidTarget()
+
+dependencyLocking {
+    lockAllConfigurations()
+}

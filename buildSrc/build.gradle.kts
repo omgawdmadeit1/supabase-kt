@@ -17,3 +17,7 @@ dependencies {
     implementation(libs.compose.gradle)
     implementation(libs.power.assert.gradle)
 }
+
+dependencyLocking {
+    lockAllConfigurations()
+}

@@ -40,3 +40,7 @@ android {
         }
     }
 }
+
+dependencyLocking {
+    lockAllConfigurations()
+}
