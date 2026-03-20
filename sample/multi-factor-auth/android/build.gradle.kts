@@ -25,3 +25,7 @@ kotlin {
         jvmTarget = JvmTarget.JVM_11
     }
 }
+
+dependencyLocking {
+    lockAllConfigurations()
+}

@@ -23,3 +23,7 @@ kotlin {
     }
 }
 
+dependencyLocking {
+    lockAllConfigurations()
+}
+
